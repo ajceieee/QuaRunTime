@@ -1,0 +1,17 @@
+.mob-menu {
+  display: none !important;
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+  .mob-item{
+    display: none !important;
+  }
+
+  .mob-menu {
+    display: block !important;
+  }
+
+}
