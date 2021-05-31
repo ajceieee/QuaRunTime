@@ -66,7 +66,7 @@ function randomArrayItem(arr){
 function randomNumFrom(min, max){
     return Math.random()*(max - min) + min;
 }
-console.log(randomNumFrom(0, 10));
+// console.log(randomNumFrom(0, 10));
 // Random Ball
 function getRandomBall(){
     var pos = randomArrayItem(['top', 'right', 'bottom', 'left']);
@@ -229,8 +229,8 @@ function initBalls(num){
 }
 // Init Canvas
 function initCanvas(){
-    canvas.setAttribute('width', window.innerWidth-20);
-    canvas.setAttribute('height', window.innerHeight-20);
+    canvas.setAttribute('width', window.innerWidth);
+    canvas.setAttribute('height', window.innerHeight);
     
     can_w = parseInt(canvas.getAttribute('width'));
     can_h = parseInt(canvas.getAttribute('height'));
