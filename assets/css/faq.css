@@ -58,9 +58,9 @@
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 0;
-  /* padding-left: 15px; */
-  /* padding-right: 15px; */
+  /* padding: 0; */
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .content {
@@ -115,6 +115,8 @@
   .toggle {
     font-size: 10px;
     border: none;
+    text-align: center;
+    justify-content: center;
   }
   .icon-faq{
     display: none;
