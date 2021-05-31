@@ -88,3 +88,15 @@
 .faq-text {
   color: black;
 }
+
+@media screen and (max-width: 473px) {
+  .toggle {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 334px) {
+  .toggle {
+    font-size: 8px;
+  }
+}
