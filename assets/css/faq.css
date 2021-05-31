@@ -5,10 +5,10 @@
   margin: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: #f59800;
 }
 #accord {
-  background-color: #0084e9;
+  background-color: #003044;
 }
 .box {
   /* width: 92vw; */
@@ -18,12 +18,13 @@
   left: 0;
   right: 0;
   top: 0px;
+  color: #f59800;
 }
 .container-faq {
   width: 100%;
 }
 .wrapper-new {
-  background-color: #ffffff;
+  background-color: #f59800;
   padding: 10px 20px;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -55,6 +56,7 @@
   outline: none;
   cursor: pointer;
   padding: 10px 0;
+  padding-left: 15px;
 }
 
 .content {
