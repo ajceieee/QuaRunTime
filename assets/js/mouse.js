@@ -25,7 +25,7 @@ var ball = {
    alpha_phase = 0,
     
 // Line
-   link_line_width = 0.8,
+   link_line_width = 1.8,  //0.8
    dis_limit = 260,
    add_mouse_point = true,
    mouse_in = false,
@@ -229,7 +229,7 @@ function initBalls(num){
 }
 // Init Canvas
 function initCanvas(){
-    canvas.setAttribute('width', window.innerWidth);
+    canvas.setAttribute('width', window.innerWidth-20);
     canvas.setAttribute('height', window.innerHeight);
     
     can_w = parseInt(canvas.getAttribute('width'));
