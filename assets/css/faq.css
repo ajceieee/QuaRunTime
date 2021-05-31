@@ -7,9 +7,9 @@
   box-sizing: border-box;
   -webkit-tap-highlight-color: #f59800;
 }
-#accord {
+/* #accord {
   background-color: #003044;
-}
+} */
 .box {
   /* width: 92vw; */
   min-width: 300px;
@@ -43,8 +43,8 @@
 .toggle {
   min-width: 100%;
   background-color: transparent;
-  /* display: -webkit-box;
-  display: -ms-flexbox; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
