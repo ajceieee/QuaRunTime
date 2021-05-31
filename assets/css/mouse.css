@@ -14,5 +14,5 @@ canvas {
   background-color: #000;
   position: absolute;
   z-index: 0;
-  pointer-events: unset;
+  pointer-events: none;
 }
