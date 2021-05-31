@@ -167,7 +167,7 @@ input, select, textarea {
 		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 0 0 .5em 0;
 		text-transform: uppercase;
 	}
 
@@ -178,7 +178,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 100 em;
-		line-height: 5em;
+		line-height: 2em;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -1779,7 +1779,7 @@ input, select, textarea {
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
-			border-bottom: solid 2px #fff;
+			border-bottom: solid 2px #f59800;
 			display: inline-block;
 			padding-bottom: 1em;
 			position: relative;
@@ -2415,7 +2415,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 3px;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #fff;
+		/* box-shadow: inset 0 0 0 2px #fff; */
 		color: #fff;
 		cursor: pointer;
 		display: inline-block;
@@ -2487,7 +2487,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #f59800;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2555,11 +2555,11 @@ input, select, textarea {
 	}
 
 		.features li {
-			padding: 4em 4em 2em 6em ;
+			padding: 2em 4em 1em 6em ;
 			display: block;
 			position: relative;
 			text-align: left;
-			height: 45mm;
+			height: 35mm;
 			width: 110mm;
 		}
 
@@ -2608,7 +2608,7 @@ input, select, textarea {
 				color: #f59800;
 				position: absolute;
 				left: 1.75em;
-				top: 2.75em;
+				top: 2.1em;
 				font-size: 1.5em;
 			}
 
@@ -2818,7 +2818,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #003044;
 			color: #c8ece9;
 		}
 
@@ -2948,8 +2948,8 @@ input, select, textarea {
 			.wrapper.style1 input[type="button"],
 			.wrapper.style1 button,
 			.wrapper.style1 .button {
-				box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125);
-				color: #ffffff;
+				/* box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125); */
+				
 			}
 
 				.wrapper.style1 input[type="submit"]:hover,
@@ -2981,7 +2981,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: transparent;
 			color: #d3d4e4;
 		}
 
@@ -3111,8 +3111,8 @@ input, select, textarea {
 			.wrapper.style3 input[type="button"],
 			.wrapper.style3 button,
 			.wrapper.style3 .button {
-				box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125);
-				color: #ffffff;
+				/* box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125);
+				color: #ffffff; */
 			}
 
 				.wrapper.style3 input[type="submit"]:hover,
@@ -3274,8 +3274,8 @@ input, select, textarea {
 			.wrapper.style5 input[type="button"],
 			.wrapper.style5 button,
 			.wrapper.style5 .button {
-				box-shadow: inset 0 0 0 2px #dfdfdf;
-				color: #2E3842;
+				/* box-shadow: inset 0 0 0 2px #dfdfdf;
+				color: #2E3842; */
 			}
 
 				.wrapper.style5 input[type="submit"]:hover,
@@ -3466,6 +3466,7 @@ input, select, textarea {
 			line-height: inherit;
 			position: absolute;
 			top: 0;
+			
 		}
 
 			#header h1 a {
@@ -3473,6 +3474,7 @@ input, select, textarea {
 				display: block;
 				height: inherit;
 				line-height: inherit;
+				font-size: larger;
 			}
 
 				@media screen and (max-width: 736px) {
@@ -3595,11 +3597,12 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 2.5em;
+			font-size: 7em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
 			z-index: 1;
+			
 		}
 
 			#banner h2:before, #banner h2:after {

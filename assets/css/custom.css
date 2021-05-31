@@ -9,7 +9,9 @@
   text-transform: none !important;
   letter-spacing: 0em;
 }
-
+.navbar-header{
+  position: fixed !important;
+}
 @media screen and (max-width: 500px) {
 
   .mob-item{

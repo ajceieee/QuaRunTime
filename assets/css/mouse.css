@@ -17,3 +17,10 @@ canvas {
   z-index: 0;
   pointer-events: none;
 }
+
+
+#price{
+  text-align: center;
+  background-color: #003044;
+  padding: 2em 0em 1.5em 0em;
+}
